@@ -30,22 +30,28 @@ Upload any image and instantly extract its dominant color palette. ColorReveal i
 ```bash
 git clone https://github.com/raygaither3/ColorReveal.git
 cd ColorReveal
+---
 
 
 2. Create and activate a virtual environment
+```bash
 
 python -m venv .venv
 source .venv/Scripts/activate    # On Windows (Git Bash)
 # Or use: .venv\Scripts\activate  (CMD or PowerShell)
+---
 
 3. Install dependencies
+```bash
 
 pip install -r requirements.txt
+---
 
 4. Run the app
+```bash
 
 flask run
-
+---
 
 
 🔒 Security Notes
